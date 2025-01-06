@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --pink: #D658B3;
+  --green: #45B442;
+  --white: #FFFFFF;
+
+  --gray-700: #332B31;
+  --gray-600: #4A4448;
+  --gray-500: #756C71;
+  --gray-400: #D3CFD2;
+  --gray-300: #DFDCDF;
+  --gray-200: #E9E7E9;
+  --gray-100: #F4F1F2;
+
+  --gradient-base: linear-gradient(90deg, #2DAA6E 0%, #2DAAAA 33.33%, #856CCF 66.67%, #D658B3 100%);
+
+  --ff-sans: 'Oxygen', system-ui, sans-serif;
+  --fw-light: 300;
+  --fw-base: 400;
+  --fw-bold: 700;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.5rem;
+}
+
+html {
+  font-family: var(--ff-sans);
+  font-weight: var(--fw-base);
+  font-size: var(--fs-base);
+  line-height: 1.4;
+  color: var(--gray-500);
+}
+
+body {
+  background-color: var(--gray-200);
+}
+
+h1, h2, h3, h4 {
+  font-weight: var(--fw-bold);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul[role="list"] {
+  list-style: none;
+  // colocar a role="list" nas ul's para manter a acessibilidade
+}
+
+@media (width >= 80em) {
+  :root {
+    // Mobile first: Colocar aqui o tudo o que seria mudado para tela grande, enquanto fora do @media ficam as variáveis para mobile.
+  }
+}
