@@ -26,7 +26,8 @@
   --gray-200: #E9E7E9;
   --gray-100: #F4F1F2;
 
-  --gradient-base: linear-gradient(90deg, #2DAA6E 0%, #2DAAAA 33.33%, #856CCF 66.67%, #D658B3 100%);
+  --gradient-base: linear-gradient(90deg, #2DAA6E 0%, #2DAAAA 33.33%, #856CCF 66.67%, #D658B3 100%);
+  --conic-gradient: conic-gradient(#D658B3, #AF74DE, #6B84DE, #5DCAB7, #45B442, #5EC6B9, #62B0C5, #698DD9, #B173DC, #D658B3);
 
   --ff-sans: 'Oxygen', system-ui, sans-serif;
   --fw-light: 300;
