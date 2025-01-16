@@ -50,6 +50,19 @@
   --py-lg: 2rem;
 }
 
+::-webkit-scrollbar {
+  width: 0.375rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gray-200);
+  border-radius: 0.375rem;
+}
+
 html {
   font-family: var(--ff-sans);
   font-weight: var(--fw-base);
